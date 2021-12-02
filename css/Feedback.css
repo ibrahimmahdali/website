@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=M+PLUS+1+Code:wght@300&display=swap');
+.fixed{
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+section{
+    margin: 20px;
+    width: 80%;
+    background-color: #233240;
+    height: 100px;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 20px;
+    
+    
+}
+section h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 32px;
+    letter-spacing: 3px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+section h2{
+    font-family: 'M PLUS 1 Code', sans-serif;
+    text-transform: capitalize;
+    opacity: 70%;
+} 
+section p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+
