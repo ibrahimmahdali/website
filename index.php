@@ -1,3 +1,25 @@
+<?php include= 'config.php';?>
+<?php
+	
+	include 'config.php';
+
+	if (isset($_POST['post'])) {
+
+		$tital = $_POST['tital'];
+		$name = $_POST['name'];
+		$Feedback = $_POST['Feedback'];
+		
+		$sql = "INSERT INTO demo (tital, name, message)
+		VALUES ('$tital','$name', '$message')";
+
+		if ($conn->query($sql) === TRUE) {
+		  echo "";
+		} else {
+		  echo "Error: " . $sql . "<br>" . $conn->error;
+		}
+	}
+
+?>
 <!DOCTYPE html>
 
 <html>
@@ -164,3 +186,4 @@ function close(){
 </script>
 
 </html>
+
