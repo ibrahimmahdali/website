@@ -162,24 +162,15 @@
                     </div>
                 </section>
             </div>
-            <div class ="buttom"><input id="buttom" class ="push" type="submit" value="Submit" name='post'></div>
+            <div class ="buttom"><input id="buttom" class ="push" type="submit" value="Submit" name='post' onclick = "close()"></div>
         </div>
     </div>
-
-
-     
-
-
-    
-
-
-
 </body>
 <script>
     function show(name){
-    document.querySelector('.pop').style.display = 'flex';
-    document.getElementById("changed").innerHTML = name;
-};
+        document.querySelector('.pop').style.display = 'flex';
+        document.getElementById("changed").innerHTML = name;
+    };
 function close(){
     document.querySelector('.pop').style.display = 'none';
 };

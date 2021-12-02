@@ -23,7 +23,7 @@
     <div class="container">
         <div class="gallery">
             <p>
-                <a href="https://www.trivago.com"  onclick = "show('trivago')" target="_black">
+                <a href="https://www.trivago.com"   target="_black">
                     <img src="img/image.1.png" alt="imag">
                 </a>
             </p>
@@ -32,7 +32,7 @@
 
         <div class="gallery">
             <p>
-                <a href="https://www.Hotels.com" onclick = "show('Hotels')" target="_black"  >
+                <a href="https://www.Hotels.com"  target="_black"  >
                     <img src="img/2.image_800x536 (1).jpg" alt="IMG" >
                 </a>
             </p>
@@ -41,7 +41,7 @@
 
         <div class="gallery">
             <p>
-                <a href="https://www.Booking.com" onclick = "show('Booking')" target="_black">
+                <a href="https://www.Booking.com"  target="_black">
                     <img src="img/3_800x509.jpg" alt="IMG">
                 </a>
             </p>
@@ -49,7 +49,7 @@
         </div>
         <div class="gallery">
             <p>
-                <a href="http://www.almosafer.com" onclick = "show('almosafer')" target="_black">
+                <a href="http://www.almosafer.com"  target="_black">
                     <img src="img/4.png" alt="IMG"  >
                 </a>
             </p>
@@ -58,7 +58,7 @@
         </div>
         <div class="gallery">
             <p>
-                <a href="https://www.skyscanner.com" onclick = "show('skyscanner')" target="_black">
+                <a href="https://www.skyscanner.com"  target="_black">
                     <img src="img/5.jpg" alt="IMG"  >
                 </a>
             </p>
@@ -66,7 +66,7 @@
         </div>
         <div class="gallery">
             <p>
-                <a href="https://www.Agoda.com" onclick = "show('Agoda')" target="_black">
+                <a href="https://www.Agoda.com"  target="_black">
                     <img src="img/14.jfif" alt="IMG"  >
                 </a>
             </p>
@@ -74,7 +74,7 @@
         </div>
         <div class="gallery">
             <p>
-                <a href="https://www.HotelsCombined.com" onclick = "show('HotelsCombined')" target="_black">
+                <a href="https://www.HotelsCombined.com"  target="_black">
                     <img src="img/15.gif" alt="IMG"  >
                 </a>
             </p>
@@ -82,7 +82,7 @@
         </div>
         <div class="gallery">
             <p>
-                <a href="https://www.Expedia.com" onclick = "show('Expedia')" target="_black">
+                <a href="https://www.Expedia.com"  target="_black">
                     <img src="img/16.jpg" alt="IMG"  >
                 </a>
             </p>
@@ -90,7 +90,7 @@
         </div>
         <div class="gallery">
             <p>
-                <a href="https://www.Kayak.com" onclick = "show('Kayak')" target="_black">
+                <a href="https://www.Kayak.com"  target="_black">
                     <img src="img/13.png" alt="IMG">
                 </a>
             </p>
@@ -98,7 +98,7 @@
         </div>
         <div class="gallery">
             <p>
-                <a href="https://www.Priceline.com" onclick = "show('Priceline')" target="_black">
+                <a href="https://www.Priceline.com"  target="_black">
                     <img src="img/10.png" alt="IMG">
                 </a>
             </p>
@@ -106,7 +106,7 @@
         </div>
         <div class="gallery">
             <p>
-                <a href="https://ar.airbnb.com/" onclick = "show('airbnb')" target="_black">
+                <a href="https://ar.airbnb.com/" target="_black">
                     <img src="img/11.png" alt="IMG"  >
                 </a>
             </p>
@@ -114,7 +114,7 @@
         </div>
         <div class="gallery">
             <p>
-                <a href="https://www.TripAdvisor.com" onclick = "show('TripAdvisor')" target="_black">
+                <a href="https://www.TripAdvisor.com"  target="_black">
                     <img src="img/12.jpg" alt="IMG"  >
                 </a>
             </p>
@@ -122,27 +122,6 @@
         </div>
     </div>
     <footer id="footer"><u>For more information contact with us on <strong>user.ex@gmail.com</strong><u></footer>
-    <div class ="pop">
-        <div class ="poppage">
-            <div><a href="" onclick = "close()"><img src="img/x.svg"></a></div>
-            <div class ="heada">
-                <h2 id="changed" name= "tital">name</h2>
-                <section class ="box">
-                    <div class ="right">
-                        <h3 >Name:</h3>
-                        <label><input type="text" name="name"></label>
-                    </div>
-                </section>
-                <section class ="box">
-                    <div class ="right">
-                        <h3 >Feedback:</h3>
-                        <label class= "massge"><textarea  type="textarea" rows= "8" clos="10"  maxlength="255"  name="Feedback"></textarea></label>
-                    </div>
-                </section>
-            </div>
-            <div class ="buttom"><input id="buttom" class ="push" type="submit" value="Submit" name='post'></div>
-        </div>
-    </div>
 
 
      
@@ -153,14 +132,5 @@
 
 
 </body>
-<script>
-    function show(name){
-    document.querySelector('.pop').style.display = 'flex';
-    document.getElementById("changed").innerHTML = name;
-};
-function close(){
-    document.querySelector('.pop').style.display = 'none';
-};
-</script>
 
 </html>
