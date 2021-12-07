@@ -1,0 +1,49 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    margin: 0;
+    background: white;
+}
+
+.container {
+    padding-top: 90px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-flow: row wrap;
+    justify-content: center;
+    background: #F2F2F2;
+}
+
+.gallery {
+    margin: 10px;
+}
+
+.gallery img {
+    background: white;
+    width: 390px;
+    border-radius: 8px;
+
+}
+
+.desc {
+    padding: 15px;
+    background: #233240;
+    color: white;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-family: 'M PLUS Code Latin', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+footer {
+    padding: 10px;
+    font-size: 17px;
+    text-align: center;
+    background: #233240;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
