@@ -9,36 +9,9 @@
 
     
 }
-section{
-    margin: 20px;
-    width: 80%;
-    background-color: #233240;
-    height: 100px;
-    border-radius: 30px;
-    color: white;
-    padding: 10px 20px;
-    
-    
-}
-section h1{
-    font-family: 'Dancing Script', cursive;
-    font-size: 32px;
-    letter-spacing: 3px;
-    font-weight: 800;
-    text-transform: capitalize;
-}
-section h2{
-    font-family: 'M PLUS 1 Code', sans-serif;
-    text-transform: capitalize;
-    opacity: 70%;
-} 
-section p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
-}
+
 .poppage{
     width: 700px;
-    height: 400px;
     background: white;
     border-radius: 30px;
 
@@ -108,7 +81,40 @@ textarea {
     border-style: none;
     color: white;
 }
-
+section{
+    margin: 20px;
+    width: 60%;
+    background-color: #233240;
+    height: 100px;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 20px;
+    
+    
+}
+section h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 32px;
+    letter-spacing: 3px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+section h2{
+    font-family: 'M PLUS 1 Code', sans-serif;
+    text-transform: capitalize;
+    opacity: 70%;
+} 
+section p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+.there{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
