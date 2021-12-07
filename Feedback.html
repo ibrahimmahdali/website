@@ -23,25 +23,54 @@
             <div class ="heada">
                 <div class ="box">
                     <div class ="right">
+                        <h3>website name:</h3>
+                        <label><input type="text" id="Website"></label>
+                    </div>
+                    <div class ="right">
                         <h3 >Name:</h3>
-                        <label><input type="text" name="name"></label>
+                        <label><input type="text" id="name"></label>
                     </div>
                 </div>
                 <div class ="box">
                     <div class ="right">
                         <h3 >Feedback:</h3>
-                        <label class= "massge"><textarea  type="textarea" rows= "8" clos="10"  maxlength="255"  name="Feedback"></textarea></label>
+                        <label class= "massge"><textarea  type="textarea" rows= "8" clos="10"  maxlength="255"  id="Feedback"></textarea></label>
+                    </form>
                     </div>
+
                 </div>
             </div>
-            <div class ="buttom"><a href=""onclick= "close()"><input id="buttom" class ="push" type="submit" value="Submit" name='post' ></a></div>
+            <div class ="buttom">
+                <button onclick="addCode()" id = "buttom" class="push">Submit</button>
+            </div>
         </div>
-        <section>
-            <h2 >Booking</h2>
-            <h1 >sarah</h1>
-            <p > the layout was poor'</p>
-        </section>
+        <div id="add_to_me" class="there">
+        </div>
+        <div class = "there">
+            <section>
+                <h2 >Booking</h2>
+                <h1 >sarah</h1>
+                <p >'' the layout was poor'</p>
+            </section>
+        </div>
     </div>
 
 </body>
+    <script >;
+        var i = 0;
+        function addCode() {
+            var website = document.getElementById("Website").value;
+            var name = document.getElementById("name").value;
+            var feed = document.getElementById("Feedback").value;
+            document.getElementById("add_to_me").innerHTML += 
+            "<section > <h2 id=\"changewebsite\"></h2><h1 id =\"changename\">sarah</h1> <p  id =\"changefeedback\">'The layout was poor'</p> </section>";
+            document.getElementById("changewebsite").innerHTML = website;
+            document.getElementById("changename").innerHTML = name;
+            document.getElementById("changefeedback").innerHTML = feed;
+            document.getElementById("changewebsite").id = i;
+            document.getElementById("changename").id = i;
+            document.getElementById("changefeedback").id = i;
+        }
+
+    </script>
 </html>
